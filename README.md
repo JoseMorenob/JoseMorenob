@@ -1,33 +1,46 @@
-# José Moreno Barbero
+<p align="center">
+  <img src="assets/banner.svg" alt="José Moreno Barbero — C++ software engineer, avionics, real-time systems and simulation." width="100%">
+</p>
 
-**C++ Software Engineer · Avionics · Real-Time Systems · Simulation**
+<p align="center">
+  <a href="https://www.linkedin.com/in/jose-moreno-barbero/">LinkedIn</a> ·
+  <a href="mailto:josemorenob@gmail.com">Email</a> ·
+  <a href="https://github.com/JoseMorenob?tab=repositories">Projects</a>
+</p>
 
-I build reliable C++ software for systems where correctness, state management and integration matter. I currently work on **Airbus C295 avionics software**, with experience spanning real-time development, inter-process communication, verification and debugging.
+I build C++ software for systems where correctness, state management and integration matter. My work includes **Airbus C295 avionics software**, real-time development, inter-process communication, verification and debugging.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jos%C3%A9%20Moreno%20Barbero-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jose-moreno-barbero/) [![Email](https://img.shields.io/badge/Email-Contact%20me-EA4335?logo=gmail&logoColor=white)](mailto:josemorenob@gmail.com)
+I also explore the connection between **physical simulation and computer graphics**: turning mathematical models into software you can run, inspect and validate.
 
-## Focus
+## Featured — IRSim
 
-- **C++17, C and Python** for real-time and systems software
-- **Avionics integration**: deterministic execution, component interfaces, event queues and state coordination
-- **Verification & debugging**: requirements-oriented development, logs, traces and GDB
-- **Simulation & graphics**: Unreal Engine 5, OpenGL, HLSL, CUDA and OpenCV
+**Physics-based infrared rendering in Unreal Engine 5.**
 
-## Featured projects
+[![IRSim demo — live thermal controls, scene radiance and detector processing](https://raw.githubusercontent.com/JoseMorenob/thermalSimulationUnreal/main/Documentation/Media/irsim-preview.gif)](https://github.com/JoseMorenob/thermalSimulationUnreal)
 
-| Project | What it demonstrates |
+My completed MSc thesis project at **U-tad**, now continuing toward a fuller integration workflow. It combines an independent C++17 radiometry core, reusable Unreal components, physical capture buffers and a separate detector-processing demonstration.
+
+**[Explore the project](https://github.com/JoseMorenob/thermalSimulationUnreal)** · **[Watch the demo](https://github.com/JoseMorenob/thermalSimulationUnreal/raw/refs/heads/main/Documentation/Media/irsim-showcase.mp4)** · **[Technical integration guide 🇪🇸](https://github.com/JoseMorenob/thermalSimulationUnreal/blob/main/Documentation/INTEGRACION.md)**
+
+## Engineering focus
+
+| Area | What I work with |
 |---|---|
-| [IRSimClean](https://github.com/JoseMorenob/thermalSimulationUnreal) | Unreal Engine 5 infrared-sensor simulation with C++/HLSL, thermal materials and LWIR image-formation concepts. |
-| [CUDA Image Processing](https://github.com/JoseMorenob/programacion-concurrente) | C++/CUDA image-processing experiments: GPU kernels, reductions, HDR tone mapping and seam carving. |
-| [APIS3D](https://github.com/JoseMorenob/APIS3D/tree/portfolio-cleanup) | Modular C++/OpenGL rendering framework with scene management, shaders, camera/input abstractions and lighting. |
-| [Ray Tracer](https://github.com/JoseMorenob/realistic-rendering-and-visualization-raytracer) | Realistic rendering and visualization work. |
+| **Systems software** | C++17, C, real-time execution, component interfaces, event queues and state coordination. |
+| **Verification & integration** | Requirements-oriented development, logs, traces, debugging and GDB. |
+| **Simulation & graphics** | Unreal Engine 5, OpenGL, HLSL, CUDA and OpenCV. |
+| **Development workflow** | Linux, Python, CMake, Git, Jenkins and Docker. |
 
-## Toolset
+## More projects
 
-`C++17` · `C` · `Python` · `Linux` · `VxWorks / RTOS concepts` · `CORBA` · `CMake` · `Git` · `Jenkins` · `Docker` · `OpenGL` · `Unreal Engine 5` · `HLSL` · `CUDA` · `OpenCV`
+| Project | Focus |
+|---|---|
+| [CUDA Image Processing](https://github.com/JoseMorenob/programacion-concurrente) | GPU kernels, reductions, HDR tone mapping and seam carving. |
+| [Ray Tracer](https://github.com/JoseMorenob/realistic-rendering-and-visualization-raytracer) | Realistic rendering and visualization. |
+| [Physics Simulation](https://github.com/JoseMorenob/SimulacionFisicaVideojuegos) | Physics simulation work for games. |
 
 ## Currently
 
-Completing an MSc in **Virtual Reality, Computer Graphics and Simulation** at U-tad while developing production software for aerospace systems.
+Continuing IRSim beyond the completed thesis, with a focus on reproducible integration, validation and the path toward synthetic RGB/IR data.
 
-Open to C++ software, simulation, robotics and aerospace opportunities across Europe.
+Open to **C++ software, simulation, robotics and aerospace opportunities across Europe**.
